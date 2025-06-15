@@ -1,16 +1,14 @@
 [app]
-title = Women Safety App
-package.name = safety
-package.domain = org.example
+title = WomenSafetyApp
+package.name = women_safety
+package.domain = org.deva.safety
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
-requirements = kivy, geocoder, twilio, SpeechRecognition, pyaudio, python-dotenv
+requirements = python3,kivy,geocoder,twilio,speechrecognition
 orientation = portrait
 fullscreen = 1
-android.permissions = INTERNET, RECORD_AUDIO, SEND_SMS, ACCESS_FINE_LOCATION
-android.api = 30
-android.minapi = 21
-android.sdk = 30
-android.ndk = 21b
-android.private_storage = 1
+
+[buildozer]
+log_level = 2
+warn_on_root = 1

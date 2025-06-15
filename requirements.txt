@@ -1,6 +1,4 @@
 kivy
 geocoder
+speechrecognition
 twilio
-SpeechRecognition
-pyaudio
-python-dotenv
