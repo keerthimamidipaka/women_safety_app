@@ -1,0 +1,6 @@
+kivy
+geocoder
+twilio
+SpeechRecognition
+pyaudio
+python-dotenv
